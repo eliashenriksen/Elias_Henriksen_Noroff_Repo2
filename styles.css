@@ -4,16 +4,21 @@
 header {
   padding-top: 26px;
   padding-bottom: 26px;
-  padding-left: 356px;
-  padding-right: 356px;
+  margin-left: 356px;
+  margin-right: 356px;
   display: flex;
   flex-direction: row;
-  outline: solid red;
+  justify-content: space-between;
+}
+
+.homelogo {
+  max-width: 100%;
+  height: auto;
+  min-width: 150px;
 }
 
 nav {
   display: flex;
-  outline: solid rgb(0, 255, 98);
   align-items: center;
 }
 
@@ -51,10 +56,14 @@ nav a:hover {
   padding-top: 14px;
   padding-bottom: 14px;
   width: 165px;
+  box-shadow: 0px 3px 6px #00000029;
+  margin-left: 50px;
 }
 
 .flaticon-magnifying-glass {
-  font-size: 20px;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-weight: 900;
 }
 
@@ -65,7 +74,7 @@ nav a:hover {
   color: #afafaf;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 input.searchbox-input:focus {
@@ -75,4 +84,12 @@ input.searchbox-input:focus {
 ::selection {
   background: #d4002f;
   color: #ffffff;
+}
+
+main {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin-left: 356px;
+  margin-right: 356px;
+  background: red;
 }
