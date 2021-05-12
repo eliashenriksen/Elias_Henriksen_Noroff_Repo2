@@ -1,0 +1,15 @@
+/*font-family: 'Archivo Narrow', sans-serif;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+header {
+  padding-top: 26px;
+  padding-left: 356px;
+  padding-right: 356px;
+  display: flex;
+  flex-direction: row;
+  outline: solid red;
+}
+
+.main-nav {
+
+}
