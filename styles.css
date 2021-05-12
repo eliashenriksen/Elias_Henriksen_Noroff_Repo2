@@ -3,6 +3,7 @@
 
 header {
   padding-top: 26px;
+  padding-bottom: 26px;
   padding-left: 356px;
   padding-right: 356px;
   display: flex;
@@ -10,6 +11,68 @@ header {
   outline: solid red;
 }
 
-.main-nav {
+nav {
+  display: flex;
+  outline: solid rgb(0, 255, 98);
+  align-items: center;
+}
 
+nav ul {
+  /*outline: solid rgb(4, 248, 207);*/
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 14px 24px 14px 24px;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background: #d4002f;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.searchbox {
+  /*outline: solid red;*/
+  display: flex;
+  align-items: center;
+  background: #e5e5e5;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 165px;
+}
+
+.flaticon-magnifying-glass {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.searchbox-input {
+  width: 100px;
+  background: none;
+  border: none;
+  color: #afafaf;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input.searchbox-input:focus {
+  outline: none;
+}
+
+::selection {
+  background: #d4002f;
+  color: #ffffff;
 }
