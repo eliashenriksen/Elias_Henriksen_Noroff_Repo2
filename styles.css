@@ -27,21 +27,22 @@ nav ul {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
-  margin: 0px;
-  padding: 0px;
 }
 
 nav li {
   display: inline-block;
   cursor: pointer;
+  margin-left: -5px;
 }
 
 nav a {
   text-decoration: none;
   color: #000000;
   padding: 14px 24px 14px 24px;
+  margin: none;
 }
 
+.selected-nav,
 nav a:hover {
   color: #ffffff;
   background: #d4002f;
@@ -87,9 +88,31 @@ input.searchbox-input:focus {
 }
 
 main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10rem;
   padding-top: 26px;
   padding-bottom: 26px;
   margin-left: 356px;
   margin-right: 356px;
   background: red;
+}
+
+.frontpage-image {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.frontpage-contentblock2 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: green;
 }
