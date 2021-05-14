@@ -99,19 +99,26 @@ main {
   background: red;
 }
 
-.frontpage-image {
+.testdiv1 {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  max-height: 285px;
+}
+
+.frontpage-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .frontpage-contentblock2 {
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
   background-color: green;
