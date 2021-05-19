@@ -112,6 +112,11 @@ main {
   margin-right: 22.25rem;
 }
 
+.subpage-titles {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 /*/////////////////[ Frontpage Start ]/////////////////*/
 
 .frontpage-main {
@@ -158,8 +163,7 @@ main {
 }
 
 .frontpage-contentblock-1:hover {
-  border: solid 5px #53fc8b;
-  margin: -5px;
+  outline: solid 5px #53fc8b;
   cursor: pointer;
   box-shadow: 0px 3px 6px #00000029;
 }
@@ -189,8 +193,7 @@ main {
 }
 
 .frontpage-contentblock-2:hover {
-  border: solid 5px #53fc8b;
-  margin: -5px;
+  outline: solid 5px #53fc8b;
   cursor: pointer;
   box-shadow: 0px 3px 6px #00000029;
 }
@@ -215,8 +218,7 @@ main {
 }
 
 .frontpage-contentblock-3:hover {
-  border: solid 5px #d4002f;
-  margin: -5px;
+  outline: solid 5px #d4002f;
   cursor: pointer;
   box-shadow: 0px 3px 6px #00000029;
 }
@@ -245,8 +247,7 @@ main {
 }
 
 .frontpage-contentblock-4:hover {
-  border: solid 5px #53cefc;
-  margin: -5px;
+  outline: solid 5px #53cefc;
   cursor: pointer;
   box-shadow: 0px 3px 6px #00000029;
 }
@@ -271,8 +272,7 @@ main {
 }
 
 .frontpage-contentblock-5:hover {
-  border: solid 5px #53cefc;
-  margin: -5px;
+  outline: solid 5px #53cefc;
   cursor: pointer;
   box-shadow: 0px 3px 6px #00000029;
 }
@@ -319,8 +319,7 @@ main {
 }
 
 .frontpage-contentblock-6:hover {
-  border: solid 5px #53fc8b;
-  margin: -5px;
+  outline: solid 5px #53fc8b;
   cursor: pointer;
   box-shadow: 0px 3px 6px #00000029;
 }
@@ -411,11 +410,6 @@ main {
   gap: 25px;
 }
 
-.explore-main h1 {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .explore-contentblocks {
   display: flex;
   justify-content: center;
@@ -485,6 +479,45 @@ main {
 }
 
 /*/ ////////////////[ Explorepage End ]/////////////////*/
+
+/*/////////////////[ Visituspage Start ]/////////////////*/
+
+.visitus-contentwrapper {
+  background-color: #d4002f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.visitus-contentwrapper h2 {
+  margin-top: 55px;
+  margin-bottom: 0px;
+}
+
+.visitus-contentwrapper p {
+  margin-top: 0px;
+}
+
+.visitus-section-1,
+.visitus-section-2 {
+  margin: 4rem;
+  color: #ffffff;
+  max-width: 300px;
+}
+
+.visitus-section-1-wrapper-1 p {
+  margin: 0px;
+}
+
+.visitus-icons {
+  vertical-align: middle;
+  margin-left: -65px;
+  margin-right: 10px;
+  font-size: 44px;
+}
+
+/*/////////////////[ Visituspage End ]/////////////////*/
 
 footer {
   height: 275px;
