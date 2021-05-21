@@ -61,7 +61,7 @@ nav a {
   text-decoration: none;
   color: #000000;
   padding: 14px 24px 14px 24px;
-  margin: none;
+  margin: 0px;
 }
 
 .selected-nav,
@@ -474,6 +474,66 @@ main {
 
 /*/ ////////////////[ Explorepage End ]/////////////////*/
 
+/*/////////////////[ Exhibitionspage Start ]/////////////////*/
+
+.exhibitions-main {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 130px;
+}
+
+.exhibitions-main img {
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+}
+
+.exhibitions-contentblocks {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.exhibitions-contentblocks:hover {
+  cursor: pointer;
+  margin-left: -2rem;
+  margin-right: 2rem;
+}
+
+.exhibits-left {
+  width: 50%;
+  margin: 25px;
+}
+
+.exhibits-right {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.exhibitions-contentblock-1 {
+  background-color: #53cefc;
+}
+
+.exhibitions-contentblock-2 {
+  background-color: #53fc8b;
+}
+
+.exhibitions-contentblock-3 {
+  color: #ffffff;
+  background-color: #d4002f;
+}
+
+.exhibitions-contentblock-4 {
+  background-color: #53cefc;
+}
+
+.exhibitions-contentblock-5 {
+  background-color: #53fc8b;
+}
+/*/ ////////////////[ Exhibitionspage End ]/////////////////*/
+
 /*/////////////////[ Visituspage Start ]/////////////////*/
 
 .visitus-contentwrapper {
@@ -511,7 +571,7 @@ main {
   font-size: 44px;
 }
 
-/*/////////////////[ Visituspage End ]/////////////////*/
+/*/ ////////////////[ Visituspage End ]/////////////////*/
 
 footer {
   height: 275px;
