@@ -50,6 +50,7 @@ header {
 .hamburger-menu-bars {
   max-width: 50px;
   float: right;
+  margin-right: 1rem;
 }
 
 nav {
@@ -756,4 +757,83 @@ footer a img {
   }
 
   /*/////////////////[ Frontpage Mobile End ]/////////////////*/
+  /*/////////////////[ Explorepage Mobile Start ]/////////////////*/
+
+  .explore-main-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .explore-contentblocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 6px #00000029;
+  }
+
+  .explore-contentblocks-inner-part1 {
+    flex: auto;
+    margin: 2rem;
+  }
+
+  .explore-contentblocks-inner-part2 {
+    flex: auto;
+    max-height: 300px;
+    max-width: 300px;
+  }
+
+  .explore-contentblock-2 {
+    flex-direction: column-reverse;
+  }
+
+  .explore-main img {
+    max-width: auto;
+    object-fit: cover;
+  }
+
+  /*/////////////////[ Explorepage Mobile End ]/////////////////*/
+  /*/////////////////[ Exhibitionspage Mobile Start ]/////////////////*/
+
+  .exhibitions-contentblocks:hover {
+    cursor: pointer;
+    margin: 0px;
+  }
+
+  .exhibitions-main img {
+    height: auto;
+    max-width: 100%;
+    position: static;
+  }
+
+  .exhibitions-contentblocks {
+    flex-direction: column;
+  }
+
+  .exhibits-left {
+    width: auto;
+    margin: 2rem;
+  }
+
+  .exhibits-right {
+    max-height: 300px;
+    width: auto;
+    margin: 0px;
+  }
+
+  /*/////////////////[ Exhibitionspage Mobile End ]/////////////////*/
+  /*/////////////////[ Visituspage Mobile Start ]/////////////////*/
+
+  .visitus-contentwrapper {
+    flex-direction: column;
+  }
+
+  .visitus-section-1,
+  .visitus-section-2 {
+    margin: 0px 2rem 0px 20%;
+    align-self: center;
+    padding-bottom: 3rem;
+  }
+
+  /*/////////////////[ Visituspage Mobile End ]/////////////////*/
 }
