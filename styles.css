@@ -50,6 +50,7 @@ header {
 .hamburger-menu-bars {
   max-width: 50px;
   float: right;
+  margin-top: 5rem;
   margin-right: 1rem;
 }
 
@@ -830,7 +831,7 @@ footer a img {
 
   .visitus-section-1,
   .visitus-section-2 {
-    margin: 0px 2rem 0px 20%;
+    margin: 0px 2rem 0px 25%;
     align-self: center;
     padding-bottom: 3rem;
   }
@@ -841,7 +842,7 @@ footer a img {
     margin-top: 4rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #ffffff;
     align-self: center;
   }
