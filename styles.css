@@ -691,10 +691,6 @@ footer a img {
     flex-direction: column-reverse;
   }
 
-  .explore-main img {
-    max-width: auto;
-    object-fit: cover;
-  }
   /*/// explore one col responsive ///*/
 
   .exhibitions-main img {
@@ -832,10 +828,6 @@ footer a img {
     flex-direction: column-reverse;
   }
 
-  .explore-main img {
-    max-width: auto;
-    object-fit: cover;
-  }
   /*/// explore one col responsive ///*/
   /*/// exhibitions one col responsive ///*/
   .exhibitions-contentblocks:hover {
@@ -1035,11 +1027,6 @@ footer a img {
 
   .explore-contentblock-2 {
     flex-direction: column-reverse;
-  }
-
-  .explore-main img {
-    max-width: auto;
-    object-fit: cover;
   }
 
   /*/////////////////[ Explorepage Mobile End ]/////////////////*/
