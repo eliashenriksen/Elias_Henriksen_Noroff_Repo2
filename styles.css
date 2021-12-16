@@ -21,6 +21,7 @@ p {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 header {
@@ -550,6 +551,14 @@ main {
   background-color: #53fc8b;
 }
 /*/ ////////////////[ Exhibitionspage End ]/////////////////*/
+
+/*/ ////////////////[ Specificexhibition Start ]/////////////////*/
+
+.specificexhibition-contentwrapper {
+  background-color: #d4002f;
+}
+
+/*/ ////////////////[ Specificexhibition End ]/////////////////*/
 
 /*/////////////////[ Visituspage Start ]/////////////////*/
 
